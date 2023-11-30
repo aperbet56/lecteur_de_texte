@@ -8,6 +8,7 @@ btn.addEventListener("click", () => {
   let utterance = new SpeechSynthesisUtterance(text.value);
   //console.log(utterance);
   utterance.voice = window.speechSynthesis.getVoices()[0];
-  //console.log(speechSynthesis.getVoices());
+  //Afin de trouver toutes les voix supportées par votre navigateur et choisir la voix qui vous convient
+  console.log(speechSynthesis.getVoices());
   window.speechSynthesis.speak(utterance);
 });
