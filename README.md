@@ -7,7 +7,7 @@ J'ai utilisé l'API SpeechSynthesis en JavaScript pour convertir du texte en par
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/lecteur_de_texte/
 
 ## Développez avec
 
