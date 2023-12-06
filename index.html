@@ -9,14 +9,15 @@
   </head>
   <body>
     <header>
-      <h1>MA liseuse de texte</h1>
+      <h1>Ma liseuse de texte</h1>
     </header>
     <main class="main__content">
       <section class="container">
         <h2>Liseuse de texte</h2>
         <form>
           <label for="text">Entrez le texte à lire :</label>
-          <textarea name="text" id="text"></textarea>
+          <textarea name="text" id="text" maxlength="450"></textarea>
+          <span class="counter"></span>
         </form>
         <button class="btn">Lire le texte</button>
       </section>
