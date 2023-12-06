@@ -7,7 +7,7 @@ Mon objectif a été de créér une petite application qui permet de convertir f
 Pour se faire :
 
 - L'internaute doit simplement saisir du texte et ensuite cliquer sur le bouton "Lire le texte" pour que celui-ci soit lu.
-  J'ai utilisé l'API SpeechSynthesis en JavaScript pour convertir du texte en parole.
+  
 - Petit bonus : affichage du le nombre de caractères saisi en temps réél
 
 J'ai utilisé l'API SpeechSynthesis en JavaScript pour convertir du texte en parole.
