@@ -2,7 +2,14 @@
 
 ## Le challenge
 
-Mon objectif a été de créér une petite application qui permet de convertir facilement du texte en parole en utilisant le HTML5, le CSS et le JavaScript. L'internaute doit simplement saisir du texte et ensuite cliquer sur le bouton "Lire le texte" pour que celui-ci soit lu.
+Mon objectif a été de créér une petite application qui permet de convertir facilement du texte (de 450 caractères maximun) en parole en utilisant le HTML5, le CSS et le JavaScript.
+
+Pour se faire :
+
+- L'internaute doit simplement saisir du texte et ensuite cliquer sur le bouton "Lire le texte" pour que celui-ci soit lu.
+  J'ai utilisé l'API SpeechSynthesis en JavaScript pour convertir du texte en parole.
+- Petit bonus : affichage du le nombre de caractères saisi en temps réél
+
 J'ai utilisé l'API SpeechSynthesis en JavaScript pour convertir du texte en parole.
 
 ## Démonstration
