@@ -18,11 +18,10 @@ btn.addEventListener("click", () => {
 const updateCounter = () => {
   counter.textContent =
     text.value.length + "/" + text.getAttribute("maxLength"); // Récupérer et afficher le longueur du texte saisi par l'internaute
-  // remainingCounter.textContent =
-  // textarea.getAttribute("maxLength") - textarea.value.length; // calcul du nombre restant de caractère à saisir
 };
 
 // Appel de la fonction updateCounter
 updateCounter();
 
+// Ecoute de l'événement "keyup" (qui se déclenche lorsque qu'une touche du clavier qui a été pressée est relâchée) sur la textarea et appel de la fonction updateCounter
 text.addEventListener("keyup", updateCounter);
