@@ -1,5 +1,7 @@
 ## Liseuse de texte
 
+![Design preview for the projet](./img/preview.png)
+
 ## Le challenge
 
 Mon objectif a été de créér une petite application qui permet de convertir facilement du texte (de 450 caractères maximun) en parole en utilisant le HTML5, le CSS et le JavaScript.
@@ -7,7 +9,6 @@ Mon objectif a été de créér une petite application qui permet de convertir f
 Pour se faire :
 
 - L'internaute doit simplement saisir du texte et ensuite cliquer sur le bouton "Lire le texte" pour que celui-ci soit lu.
-  
 - Petit bonus : affichage du le nombre de caractères saisi en temps réél
 
 J'ai utilisé l'API SpeechSynthesis en JavaScript pour convertir du texte en parole.
@@ -16,14 +17,15 @@ J'ai utilisé l'API SpeechSynthesis en JavaScript pour convertir du texte en par
 
 Lien vers le projet : https://aperbet56.github.io/lecteur_de_texte/
 
-## Développez avec
+## Projet développé avec
 
 - Utilisation des balises sémantiques HTML5
-- CSS
+- CSS3
 - Importation de la police Raleway
 - Flexbox
 - Animation CSS au survol sur le bouton
 - Page web responsive
+- Importation de la police "Raleway"
 - Utilisation d'un normaliseur : normalize.css
 - JavaScript
 - Code JavaScript commenté
